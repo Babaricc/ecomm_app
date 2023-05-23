@@ -49,7 +49,7 @@ public class AppIntro extends com.github.paolorotolo.appintro.AppIntro {
     }
 
     public void gotoHome() {
-        startActivity(new Intent(AppIntro.this, HomeScreen.class));
+        startActivity(new Intent(AppIntro.this, OTP_Screen.class));
     }
 
 

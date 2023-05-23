@@ -29,6 +29,49 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.Ecom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="titleTextColor">@color/black</item>
+        <item name="colorPrimaryVariant">#553301</item>
+        <item name="colorOnPrimary">@color/teal_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="optBtnStyle" >
+        <item name="android:layout_width">40sp</item>
+        <item name="android:layout_height">45sp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">5sp</item>
+        <item name="android:imeOptions">actionNext</item>
+<!--        <item name="android:importantForAutofill">no</item>-->
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+
+    </style>
+    <style name="Theme.Ecom.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryVariant">#553301</item>
+        <item name="colorOnPrimary">@color/teal_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
     <style name="Theme.Ecomm_app.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Ecomm_app.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
