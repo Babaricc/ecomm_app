@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971868854218",
+    "project_id": "karachi-mart-157e2",
+    "storage_bucket": "karachi-mart-157e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971868854218:android:86d130f255b267f4bde133",
+        "android_client_info": {
+          "package_name": "com.example.ecomm_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEIA3wcgPaOca1H_ChAP5xPgw8j7b8oV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
